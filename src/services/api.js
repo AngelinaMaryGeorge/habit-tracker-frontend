@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create a base connection to your Express backend
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api/habits',
+  baseURL: 'https://habit-tracker-backend-qjs2.onrender.com/api/habits', // Update this URL to match your backend's URL
 });
 
 // 1. Fetch all habits (Translates to GET /api/habits)
